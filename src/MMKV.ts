@@ -177,8 +177,11 @@ export class MMKV implements MMKVInterface {
 
   set(key: string, value: boolean | string | number | Uint8Array): void {
     const func = this.getFunctionFromCache('set');
+    if (key) {
+      const _delete = this.getFunctionFromCache('delete');
+      _delete(key);
+    }
     func(key, value);
-
     this.onValuesChanged([key]);
   }
   getBoolean(key: string): boolean | undefined {

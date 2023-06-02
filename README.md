@@ -1,4 +1,4 @@
-# Applied fix mention in #440 (https://github.com/mrousavy/react-native-mmkv/issues/440#issuecomment-1421052424)
+# Applied fix mentioned in #440 (https://github.com/mrousavy/react-native-mmkv/issues/440#issuecomment-1421052424)
 
 You can install this in your project via: npm install react-native-mmkv-storage-fix@2.8.0
 

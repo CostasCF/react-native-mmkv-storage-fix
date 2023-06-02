@@ -1,3 +1,11 @@
+# Applied fix mention in #440 (https://github.com/mrousavy/react-native-mmkv/issues/440#issuecomment-1421052424)
+
+You can install this in your project via: npm install react-native-storage-fix@2.8.0
+
+Original Repository: https://github.com/mrousavy/react-native-mmkv
+
+
+
 <a href="https://margelo.io">
   <img src="./img/banner.svg" width="100%" />
 </a>
